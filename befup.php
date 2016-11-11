@@ -5,7 +5,7 @@
 
 <?php
 
-$db = mysqli_connect("mysql.hostinger.in", "u462235906_vijay", "administrator", "u462235906_user");
+$db = mysqli_connect("hostname", "username", "password", "db_name");
 
 $sql = "SELECT * FROM tuesday";
 
